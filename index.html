@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <header class="bg-[#F9F7F3]">
+    <div class="">
+      <div class="header-containe flex justify-around pt-5 pb-16">
+        <div>
+          <a href="home.html"><button class="btn btn-active btn-accent">Blog</button></a>
+        </div>
+        <div class="flex justify-center items-center">
+          <div>
+            <img class="w-8" src="assets/logo.png" alt="">
+          </div>
+          <div>
+            <h3 class="ml-3 font-bold">Donate Bangladesh</h3>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="">
+            <img class="w-6" src="assets/coin.png" alt="">
+          </div>
+          <div>
+            <h3 class="ml-3 font-bold"><span id="even-Monay">5500</span> BDT</h3>
+          </div>
+        </div>
+      </div>
+      <div class="header-button flex justify-center">
+        <button id="btn-Donation" class="btn mr-2">Donation</button>
+        <button id="btn-History" class="btn ml-2">History</button>
+      </div>
+    </div>
+  </header>
+  <!--  -->
+  <main class="">
+    <div id="show-the-Donation">
+    <div class="card lg:card-side border-solid border-2 border-[#F9F7F3]-600 mt-7 ml-32 mr-32">
+      <div class="flex w-full">
+        <img class="header-img p-6" src="assets/feni.png" alt="Album" />
+      </div>
+
+      <div class="card-body">
+        <div class="flex">
+          <img class="w-6" src="assets/coin.png" alt="">
+          <h3 class=""><span id="feni-add-monay">600</span> BDT</h3>
+        </div>
+        <h1 class="font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+        <p>The recent floods in Feni have devastated local communities, leading to severe disruption and loss.
+          Your generous donation will help provide immediate aid, including food, clean water, and medical
+          supplies, to those affected by this calamity. Together, we can offer crucial support and help
+          rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real
+          difference. Please consider donating today to assist those in urgent need.</p>
+        <input id="feni-input" class="min-w-full h-11 mt-10" type="text" placeholder="Write Donation Amount">
+        <!--  -->
+        <div class="card-actions justify-end">
+          <button id="feni-Donate-Now"  class="btn min-w-full bg-[#B4F461]">Donate New</button>
+         
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="card lg:card-side  border-solid border-2 border-[#F9F7F3]-600 mt-7 ml-32 mr-32">
+      <div class="flex w-full">
+        <img class="header-img p-6" src="assets/noakhali.png" alt="Album" />
+      </div>
+      <div class="card-body">
+        <div class="flex">
+          <img class="w-6" src="assets/coin.png" alt="">
+          <h3><span id="Noakhali-Add-monay">600</span> BDT</h3>
+        </div>
+        <h1 class="font-bold">Donate for Flood at Noakhali, in Bangladesh</h1>
+        <p>The recent floods in Feni have devastated local communities, leading to severe disruption and loss.
+          Your generous donation will help provide immediate aid, including food, clean water, and medical
+          supplies, to those affected by this calamity. Together, we can offer crucial support and help
+          rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real
+          difference. Please consider donating today to assist those in urgent need.</p>
+        <input id="Noakhali-input" class="min-w-full h-11 mt-10" type="text" placeholder="Write Donation Amount">
+        <div class="card-actions justify-end">
+          <button id="Noakhali-Donate-Now" class="btn min-w-full bg-[#B4F461]">Donate New</button>
+       
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="card lg:card-side  border-solid border-2 border-[#F9F7F3]-600 mt-7 ml-32 mr-32">
+      <div class="flex w-full">
+        <img class="header-img p-6" src="assets/quota-protest.png" alt="Album" />
+      </div>
+      <div class="card-body">
+        <div class="flex">
+          <img class="w-6" src="assets/coin.png" alt="">
+          <h3><span id="add-moany">600</span> BDT</h3>
+        </div>
+        <h1 class="font-bold">Aid for Injured in the Quota Movement</h1>
+        <p>The recent floods in Feni have devastated local communities, leading to severe disruption and loss.
+          Your generous donation will help provide immediate aid, including food, clean water, and medical
+          supplies, to those affected by this calamity. Together, we can offer crucial support and help
+          rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real
+          difference. Please consider donating today to assist those in urgent need.</p>
+        <input id="input-donate" class="min-w-full h-11 mt-10" type="text" placeholder="Write Donation Amount">
+        <div   class="card-actions justify-end">
+          <button id="aid-donate" class="btn min-w-full bg-[#B4F461]">Donate New</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--  -->
+<div id="show-the-History" class="hidden pt-8 w-auto">
+  <div id="Transaction-history" class="border-solid border-2 border-[#FFFFFF]-500 rounded-md w-auto ml-32 mr-32 p-4">
+
+  </div>
+  <div id="Transaction-history-Noakil" class="border-solid border-2 border-[#FFFFFF]-500 rounded-md w-auto ml-32 mr-32 mt-2 p-4">
+
+  </div>
+  <div id="Transaction-history-ari" class="border-solid border-2 border-[#FFFFFF]-500 rounded-md w-auto ml-32 mr-32 mt-2 p-4">
+
+  </div>
+ 
+</div>
+  </main>
+  <footer></footer>
+
+  <script src="index.js"></script>
+  <script src="features.js"></script>
+</body>
+
+</html>
