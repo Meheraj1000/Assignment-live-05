@@ -1,0 +1,25 @@
+
+.header-img{
+    width: 100%;
+    height: 100%;
+}
+/* 
+<!-- Open the modal using ID.showModal() method -->
+          <!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+          <dialog id="my_modal_3" class="modal">
+            <div class="modal-box">
+              <h1 class="text-2xl font-bold text-center">Congrates</h1>
+              <div class="flex justify-center mt-2">
+                <img src="assets/coin.png" alt="">
+              </div>
+              <p class="py-4 text-center">You Have Donated for Humankind</p>
+              <h2 class="text-xl font-bold text-center">Successfully</h2>
+              <div class="modal-action">
+                <div class="flex justify-center">
+                  <form>
+                    <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn w-full">close confirmation</button>
+                  </form>
+              </div>
+            </div>
+          </dialog>   */
