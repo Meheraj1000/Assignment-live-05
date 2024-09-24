@@ -18,9 +18,13 @@ document.getElementById('aid-donate')
 
         // transaction history
         const p = document.createElement('p');
-        p.innerText = ` ${AvarMonay} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh`;
+        p.innerText = ` ${input} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh`;
         document.getElementById('Transaction-history-ari').appendChild(p);
-
+        //Time
+        const h1=document.createElement('h1');
+        h1.innerHTML=Date();
+        document.getElementById('Transaction-history-ari').appendChild(h1);
+    
 
     })
 // Feni
@@ -44,8 +48,14 @@ document.getElementById('feni-Donate-Now')
 
          // transaction history
          const p = document.createElement('p');
-         p.innerText = ` ${AvarMonay} Taka is Donated for famine-2024 at Feni,Bangladesh`;
+         p.innerText = ` ${inputFeni} Taka is Donated for famine-2024 at Feni,Bangladesh`;
          document.getElementById('Transaction-history').appendChild(p);
+
+         //Time
+        const h1=document.createElement('h1');
+        h1.innerHTML=Date();
+        document.getElementById('Transaction-history').appendChild(h1);
+    
     })
 
 // 
@@ -69,12 +79,19 @@ document.getElementById('Noakhali-Donate-Now')
 
          // transaction history
          const p = document.createElement('p');
-         p.innerText = ` ${AvarMonay} Taka is Donated for famine-2024 at Noakhali,Bangladesh`;
+         p.innerText = ` ${inputNoak} Taka is Donated for famine-2024 at Noakhali,Bangladesh`;
          document.getElementById('Transaction-history-Noakil').appendChild(p);
+
+         //Time
+        const h1=document.createElement('h1');
+        h1.innerHTML=Date();
+        document.getElementById('Transaction-history-Noakil').appendChild(h1);
+    
     })
 
 document.getElementById('btn-Donation')
     .addEventListener('click', function () {
+        //document.style.background='green';
         ButtonShowById('show-the-Donation');
     })
 document.getElementById('btn-History')
